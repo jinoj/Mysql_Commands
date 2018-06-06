@@ -39,3 +39,6 @@ Show all data in a table
 SELECT * FROM tablename;
 
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
+
+
+select table_schema "Database", sum(data_length + index_length)/1024/1024 "Size in Mb" from information_schema.TABLES GROUP BY table_schema;
