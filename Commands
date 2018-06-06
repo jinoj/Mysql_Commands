@@ -5,5 +5,34 @@ use databasename;
 create table new_name like old_name;
 rename table old_name to new-name;
 
+ Create a database on the sql server:
+ ====================================
  
+ create database name;
  
+ verify 
+=========
+ show databases;
+ 
+ swith to particular database:
+ -----------------------------
+ use databasename;
+ 
+ To see database's field formats
+ ===============================
+ describe tablename;
+ 
+ To delete a db:
+ ================
+ 
+ drop database databasename;
+ 
+ To delete a table:
+ ==================
+ drop table tablename;
+
+
+Show all data in a table
+========================
+
+SELECT * FROM tablename;
