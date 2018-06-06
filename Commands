@@ -21,6 +21,7 @@ rename table old_name to new-name;
  To see database's field formats
  ===============================
  describe tablename;
+ show columns from table name; 
  
  To delete a db:
  ================
@@ -36,3 +37,4 @@ Show all data in a table
 ========================
 
 SELECT * FROM tablename;
+
