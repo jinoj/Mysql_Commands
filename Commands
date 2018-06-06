@@ -1,0 +1,9 @@
+create table similar structure:
+===============================
+
+use databasename;
+create table new_name like old_name;
+rename table old_name to new-name;
+
+ 
+ 
