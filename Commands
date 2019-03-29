@@ -40,5 +40,8 @@ SELECT * FROM tablename;
 
 http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
 
+mysqldunp extract single table: 
+
+https://spin.atomicobject.com/2010/12/13/extracting-a-table-from-a-mysql-dump/
 
 select table_schema "Database", sum(data_length + index_length)/1024/1024 "Size in Mb" from information_schema.TABLES GROUP BY table_schema;
